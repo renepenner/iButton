@@ -8,7 +8,6 @@ echo "Start scanning for 1-Wire Devices"
 
 while test 1
 do
-#	echo '.'
 	while read line;
 	do
 		if [ "$line" != 'not found.' ]
@@ -18,8 +17,6 @@ do
 	done < $FILE_SLAVES
 
 	echo 1 > $FILE_SEARCH
-
-	#echo "."
 
 	slaves=$( cat "$FILE_SLAVES" )
 	if [ "$slaves" != 'not found.' ] 
