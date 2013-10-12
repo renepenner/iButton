@@ -22,3 +22,8 @@ To run the script not at root you hast du set write permitions.
     chmod a+w /sys/devices/w1_bus_master1/w1_master_remove
     chmod a+w /sys/devices/w1_bus_master1/w1_master_search
     
+
+Connect Raspberry Pi With iButtonreader
+-----
+
+![fritzing](fritzing.png)
