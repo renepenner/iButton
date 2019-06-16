@@ -17,6 +17,7 @@ do
 	done < $FILE_SLAVES
 
 	echo 1 > $FILE_SEARCH
+	sleep 0.5
 
 	slaves=$( cat "$FILE_SLAVES" )
 	if [ "$slaves" != 'not found.' ] 
